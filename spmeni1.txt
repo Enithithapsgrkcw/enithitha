@@ -1,0 +1,145 @@
+2bcc39@KC-LAB2-8C-UG39 MINGW64 ~
+$ cd D:/
+
+2bcc39@KC-LAB2-8C-UG39 MINGW64 /d
+$ mkdir myrepoeni
+
+2bcc39@KC-LAB2-8C-UG39 MINGW64 /d
+$ cd myrepo
+bash: cd: myrepo: No such file or directory
+
+2bcc39@KC-LAB2-8C-UG39 MINGW64 /d
+$ cd myrepoeni
+
+2bcc39@KC-LAB2-8C-UG39 MINGW64 /d/myrepoeni
+$ git config --global user.email"senithitha@gmail.com"
+
+2bcc39@KC-LAB2-8C-UG39 MINGW64 /d/myrepoeni
+$ git config --global user.name"enithitha"
+
+2bcc39@KC-LAB2-8C-UG39 MINGW64 /d/myrepoeni
+$ git init
+Initialized empty Git repository in D:/myrepoeni/.git/
+
+2bcc39@KC-LAB2-8C-UG39 MINGW64 /d/myrepoeni (master)
+$ touch index.html
+
+2bcc39@KC-LAB2-8C-UG39 MINGW64 /d/myrepoeni (master)
+$ touch eni1.py
+
+2bcc39@KC-LAB2-8C-UG39 MINGW64 /d/myrepoeni (master)
+$ touch sample.java
+
+2bcc39@KC-LAB2-8C-UG39 MINGW64 /d/myrepoeni (master)
+$ touch program.pdf
+
+2bcc39@KC-LAB2-8C-UG39 MINGW64 /d/myrepoeni (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        eni1.py
+        index.html
+        program.pdf
+        sample.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+2bcc39@KC-LAB2-8C-UG39 MINGW64 /d/myrepoeni (master)
+$ git add .
+
+2bcc39@KC-LAB2-8C-UG39 MINGW64 /d/myrepoeni (master)
+$ git commit -m "first commit"
+[master (root-commit) 6640655] first commit
+ Committer: 2BCC39 <2BCC39@grg.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 eni1.py
+ create mode 100644 index.html
+ create mode 100644 program.pdf
+ create mode 100644 sample.java
+
+2bcc39@KC-LAB2-8C-UG39 MINGW64 /d/myrepoeni (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+2bcc39@KC-LAB2-8C-UG39 MINGW64 /d/myrepoeni (master)
+$ git add readme.txt
+fatal: pathspec 'readme.txt' did not match any files
+
+2bcc39@KC-LAB2-8C-UG39 MINGW64 /d/myrepoeni (master)
+$ git add  readme.txt
+fatal: pathspec 'readme.txt' did not match any files
+
+2bcc39@KC-LAB2-8C-UG39 MINGW64 /d/myrepoeni (master)
+$ git add eni.txt
+fatal: pathspec 'eni.txt' did not match any files
+
+2bcc39@KC-LAB2-8C-UG39 MINGW64 /d/myrepoeni (master)
+$ git add  enithitha1.txt
+fatal: pathspec 'enithitha1.txt' did not match any files
+
+2bcc39@KC-LAB2-8C-UG39 MINGW64 /d/myrepoeni (master)
+$ git add eni1.py
+
+2bcc39@KC-LAB2-8C-UG39 MINGW64 /d/myrepoeni (master)
+$ git commit -m"changed eni1.py"
+On branch master
+nothing to commit, working tree clean
+
+2bcc39@KC-LAB2-8C-UG39 MINGW64 /d/myrepoeni (master)
+$ git commit -m"changed program.pdf"
+On branch master
+nothing to commit, working tree clean
+
+2bcc39@KC-LAB2-8C-UG39 MINGW64 /d/myrepoeni (master)
+$ git log
+commit 6640655d3290406a12d7e81a493a845f1a1d4f9d (HEAD -> master)
+Author: 2BCC39 <2BCC39@grg.edu>
+Date:   Mon Feb 27 11:12:33 2023 +0530
+
+    first commit
+
+2bcc39@KC-LAB2-8C-UG39 MINGW64 /d/myrepoeni (master)
+$ git log
+commit 6640655d3290406a12d7e81a493a845f1a1d4f9d (HEAD -> master)
+Author: 2BCC39 <2BCC39@grg.edu>
+Date:   Mon Feb 27 11:12:33 2023 +0530
+
+    first commit
+
+2bcc39@KC-LAB2-8C-UG39 MINGW64 /d/myrepoeni (master)
+$ git login branch
+git: 'login' is not a git command. See 'git --help'.
+
+The most similar command is
+        column
+
+2bcc39@KC-LAB2-8C-UG39 MINGW64 /d/myrepoeni (master)
+$ git checkout login
+error: pathspec 'login' did not match any file(s) known to git
+
+2bcc39@KC-LAB2-8C-UG39 MINGW64 /d/myrepoeni (master)
+$ git branch login
+
+2bcc39@KC-LAB2-8C-UG39 MINGW64 /d/myrepoeni (master)
+$ git checkout login
+Switched to branch 'login'
+
+2bcc39@KC-LAB2-8C-UG39 MINGW64 /d/myrepoeni (login)
+$
